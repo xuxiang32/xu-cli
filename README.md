@@ -92,8 +92,6 @@ $ xu add
 ├────────────────────┼──────────────────┼────────┤
 │ react-redux        │ xuxiang32/xu-cli │ master │
 ├────────────────────┼──────────────────┼────────┤
-│ vue                │ xuxiang32/xu-cli │ master │
-├────────────────────┼──────────────────┼────────┤
 │ my-first-template  │ `yourself`       │ master │
 └────────────────────┴──────────────────┴────────┘
 ✔ New template has been added successfully!
