@@ -1,4 +1,4 @@
-# xu-CLI
+# XU-CLI
 A light tool to generate projects in an easy way.
 
 # Installation
