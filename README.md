@@ -17,7 +17,7 @@ npm link
 # Usage
 Open your terminal and type `xu` or `xu -h` , you'll see the help infomation below:
 ```
-  Usage: xu-cli <command>
+  Usage: xu <command>
 
 
   Commands:
@@ -35,25 +35,6 @@ Open your terminal and type `xu` or `xu -h` , you'll see the help infomation bel
 
 > Note that if you are using `MacOS`, `sudo` was required while using commands `add` and `delete`.
 
-# Commands
-### add | a
-This command would help you to add a new template to the `templates.json`, which will be used by `xu` to generate projects.
-```
-$ xu add
-
-? This command would help you to add your's template
-? Set the custom name of the template: my-first-template
-? Owner/name of the template: xuxiang32/xu-cli
-? Branch of the template: new
-┌───────────────────┬──────────────────┬────────┐
-│ Template Name     │ Owner/Name       │ Branch │
-├───────────────────┼──────────────────┼────────┤
-│ my-first-template │ xuxiang32/xu-cli │  new   │
-└───────────────────┴──────────────────┴────────┘
-✔ New template has been added successfully!
-```
-`xu-cli` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `Scion`.
-
 ### list | l
 It shows you the templates list.
 ```
@@ -70,9 +51,12 @@ $ xu-cli list
 │ angular4           │ xuxiang32/xu-cli │ master │
 ├────────────────────┼──────────────────┼────────┤
 │ react-redux        │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ vue                │ xuxiang32/xu-cli │ master │
 └────────────────────┴──────────────────┴────────┘
 
 ```
+
 
 ### init | i
 After adding new templates, you could use this command to generate your own project by choosing template.
@@ -89,17 +73,52 @@ New project has been initialized successfully!
 
 It's easy, right?
 
+# Commands
+### add | a
+This command would help you to add a new template to the `templates.json`, which will be used by `xu` to generate projects.
+```
+$ xu add
+
+? This command would help you to add your's template
+? Set the custom name of the template: my-first-template
+? Owner/name of the template: xuxiang32/xu-cli
+? Branch of the template: new
+┌────────────────────┬──────────────────┬────────┐
+│ Template Name      │ Owner/Name       │ Branch │
+├────────────────────┼──────────────────┼────────┤
+│ vue                │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ angular4           │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ react-redux        │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ vue                │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ my-first-template  │ yourself         │ master │
+└────────────────────┴──────────────────┴────────┘
+✔ New template has been added successfully!
+```
+`xu-cli` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `Scion`.
+
+
+
 ### delete | d
 To delete a template, you could use this command:
 ```
 $ xu delete
 
-? Which template you want to delete? my-second-template
-┌───────────────────┬──────────────────┬────────┐
-│ Template Name     │ Owner/Name       │ Branch │
-├───────────────────┼──────────────────┼────────┤
-│ my-first-template │ xuxiang32/xu-cli │  new   │
-└───────────────────┴──────────────────┴────────┘
+? Which template you want to delete? my-first-template
+┌────────────────────┬──────────────────┬────────┐
+│ Template Name      │ Owner/Name       │ Branch │
+├────────────────────┼──────────────────┼────────┤
+│ vue                │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ angular4           │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ react-redux        │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ vue                │ xuxiang32/xu-cli │ master │
+└────────────────────┴──────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
 
