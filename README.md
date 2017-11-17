@@ -61,10 +61,13 @@ $ xu-cli list
 ┌────────────────────┬──────────────────┬────────┐
 │ Template Name      │ Owner/Name       │ Branch │
 ├────────────────────┼──────────────────┼────────┤
-│ my-first-template  │ xuxiang32/xu-cli │  new   │
+│ vue                │ xuxiang32/xu-cli │ master │
 ├────────────────────┼──────────────────┼────────┤
-│ my-second-template │ xuxiang32/xu-cli │ master │
+│ angular4           │ xuxiang32/xu-cli │ master │
+├────────────────────┼──────────────────┼────────┤
+│ react-redux        │ xuxiang32/xu-cli │ master │
 └────────────────────┴──────────────────┴────────┘
+
 ```
 
 ### init | i
