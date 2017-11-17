@@ -63,8 +63,8 @@ After adding new templates, you could use this command to generate your own proj
 ```
 $ xu-cli init
 
-? Template name: my-first-template
-? Project name: my-project
+? Template name: vue
+? Project name: vue-project
 ? Where to init the project? ../
 ⠹ Downloading template...
 
@@ -81,7 +81,7 @@ $ xu add
 
 ? This command would help you to add your's template
 ? Set the custom name of the template: my-first-template
-? Owner/name of the template: xuxiang32/xu-cli
+? Owner/name of the template: `yourself`
 ? Branch of the template: new
 ┌────────────────────┬──────────────────┬────────┐
 │ Template Name      │ Owner/Name       │ Branch │
@@ -94,7 +94,7 @@ $ xu add
 ├────────────────────┼──────────────────┼────────┤
 │ vue                │ xuxiang32/xu-cli │ master │
 ├────────────────────┼──────────────────┼────────┤
-│ my-first-template  │ yourself         │ master │
+│ my-first-template  │ `yourself`       │ master │
 └────────────────────┴──────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
@@ -108,6 +108,7 @@ To delete a template, you could use this command:
 $ xu delete
 
 ? Which template you want to delete? my-first-template
+
 ┌────────────────────┬──────────────────┬────────┐
 │ Template Name      │ Owner/Name       │ Branch │
 ├────────────────────┼──────────────────┼────────┤
@@ -116,8 +117,6 @@ $ xu delete
 │ angular4           │ xuxiang32/xu-cli │ master │
 ├────────────────────┼──────────────────┼────────┤
 │ react-redux        │ xuxiang32/xu-cli │ master │
-├────────────────────┼──────────────────┼────────┤
-│ vue                │ xuxiang32/xu-cli │ master │
 └────────────────────┴──────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
@@ -126,7 +125,7 @@ $ xu delete
 The most important part of xu-cli is `template`. All templates' infomation were list in the `templates.json`.
 A template means a project sample, which has a simple or complex file structure.
 
-You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Scion's `templates.json`.
+You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into  `templates.json`.
 
 # License
 MIT.
