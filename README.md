@@ -40,7 +40,7 @@ Open your terminal and type `xu` or `xu -h` , you'll see the help infomation bel
 ### list | l
 It shows you the templates list.
 ```
-$ xu-cli list
+$ xu list
 
 ? By default, there are 3 sets of templates.
 ? If you do not like , you can use `xu add` command to add your's templates.
@@ -61,7 +61,7 @@ $ xu-cli list
 ### init | i
 After adding new templates, you could use this command to generate your own project by choosing template.
 ```
-$ xu-cli init
+$ xu init
 
 ? Template name: vue
 ? Project name: vue-project
