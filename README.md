@@ -35,6 +35,8 @@ Open your terminal and type `xu` or `xu -h` , you'll see the help infomation bel
 
 > Note that if you are using `MacOS`, `sudo` was required while using commands `add` and `delete`.
 
+# Commands
+
 ### list | l
 It shows you the templates list.
 ```
@@ -73,7 +75,7 @@ New project has been initialized successfully!
 
 It's easy, right?
 
-# Commands
+
 ### add | a
 This command would help you to add a new template to the `templates.json`, which will be used by `xu` to generate projects.
 ```
