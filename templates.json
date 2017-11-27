@@ -4,6 +4,10 @@
       "url": "https://github.com/xuxiang32/xy-vue-template.git",
       "branch": "master"
     },
+    "vue-eleui": {
+      "url": "https://github.com/xuxiang32/vue-eleui.git",
+      "branch": "master"
+    },
     "angular4": {
       "url": "https://github.com/xuxiang32/angular4-template.git",
       "branch": "master"
